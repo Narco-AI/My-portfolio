@@ -1,0 +1,107 @@
+@media (max-width: 700px) {
+    text-box h1{
+    font-size: 20px;
+    }
+    
+    .nav-links ul li{
+    display: block;
+    }
+
+    .intro-text h1
+    {
+        font-size: 8.5vh;
+    }
+
+    .video video
+    {
+        width: 50%;
+        height: 50%;
+       position: relative;
+       left: 45vh;
+    }
+
+    nav img
+    {
+        width: 35vh;
+        height: 35vh;
+    }
+
+    .about-me h1
+    {
+        position: relative;
+        left: 93vh;
+        
+    }
+
+    .about-me img
+    {
+        width: auto;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 1920px) {
+    .intro-text h1
+    {
+        font-size: 12.5vh;
+    }
+
+    .video video
+    {
+        width: 100% ;
+        height: auto;
+       position: relative;
+       left: 75vh;
+    }
+
+    nav img
+    {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    .about-me h1
+    {
+        position: relative;
+        left: 113vh;
+        
+    }
+
+    .about-me img
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .logo-design
+    {
+        position: absolute;
+        left: 24.5vh;
+    }
+
+    .web-design
+    {
+        position: absolute;
+        left: 145vh;
+    }
+
+}
+
+@media (max-width: 2560px) {
+    .categories .rect1 
+    {
+        position: absolute;
+        left: 5vh;
+    }
+    .rect2
+    {
+        position: absolute;
+    }
+    .rect3
+    {
+        position: absolute;
+        left: 125vh;
+    }
+}

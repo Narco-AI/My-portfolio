@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta name="viewport" content="with = device-width, initial-scale=1.0">
+        <title>Narco - My Portfolio</title>
+        <link rel="stylesheet" href = "Portfolio.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap">
+    </head>
+    <body>
+
+        <section class="header"><!--logo below here-->
+            <nav>
+                <a href="Portfolio.html"><img src="images/log.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="skills.html">SKILLS</a></li>
+                        <li><a href="portfolio-sec.html">PORTFOLIO</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        <div class = 'form'>
+
+             <form onSubmit="checkAddress('e');">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" onFocus="makeFieldYellow();" onBlur="this.style.backgroundColor='white';"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email Id</label><br>
+                <input type="text" id='e' name="email"><br>
+                <input type="submit" name="sub"><br>
+              </form>
+
+ function checkAddress(e) {
+        if (document.getElementById(fieldId).value === " ") {
+            alert("Email adress is required.");
+        }
+    }
+           
+</script>
+         
+
+        </div>
+
+        </section>
+    </body>
+</html>

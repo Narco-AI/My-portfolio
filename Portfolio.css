@@ -1,0 +1,234 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+::-moz-selection { color: red;}
+::selection { color: red; }
+.header
+{
+    min-height: 90vh;
+    width: 100%;
+    background-color: #1f1f1f;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img
+{
+    filter: drop-shadow(3px 3px 3px black);
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    filter: drop-shadow(3px 3px 3px black);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+.intro-text
+{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, 50%);
+    text-align: center; 
+
+}
+
+
+.intro-text h2
+{
+    position: relative;
+    right: 26vh;
+    color: rgb(82, 82, 82);
+    font-size: 80px;
+}
+.intro-text h1
+{
+    font-size: 105px;
+}
+
+
+.intro-text img
+{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    position: absolute;
+    bottom: -13vh;
+    margin: auto;
+}
+
+.ab-btn
+{
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    top: 15px;
+    right: 31vh;
+    cursor: pointer;
+}
+
+.ab-btn:hover
+{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.video
+{
+    position: absolute;
+    top: 35vh;
+    left: 55vh;
+}
+
+.am
+{
+    min-height: 90vh;
+    width: 100%;
+    background-color: 1F1F1F;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-me h1
+{
+    position: absolute;
+    top: 25vh;
+    left: 105vh;
+    font-size: 40px;
+    color: rgb(184, 0, 0);
+}
+
+.about-me pre
+{
+    position: absolute;
+    top:35vh;
+    right: 25vh;
+    color: white;
+
+}
+
+.about-me img
+{
+    position: absolute;
+    max-width: 100%;
+    top: 30vh;
+    left: 30vh;
+}
+
+.random 
+{
+    min-height: 30vh;
+    background-color: #1F1F1F;
+}
+
+.rect1
+{
+    position: absolute;
+    top: 30vh;
+    left: 10vh;
+}
+
+.rect2
+{
+    position: absolute;
+    top: 30vh;
+    left: 70vh; 
+}
+
+.rect3
+{
+    position: absolute;
+    top: 30vh;
+    left: 130vh; 
+}
+
+.logo-design
+{
+    position: absolute;
+    color: white;
+    top: 46.5vh;
+    left: 28vh;
+}
+
+.vid-edit
+{
+    position: absolute;
+    color: white;
+    top: 46.5vh;
+    left: 89vh;
+}
+
+.web-design
+{
+    position: absolute;
+    color: white;
+    top: 46.5vh;
+    left: 150vh;
+}
+
+
+.form
+{
+    color:white;
+}
+
+.categories img
+{
+    margin: 10vh;
+}

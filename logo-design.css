@@ -1,0 +1,38 @@
+.logos{
+    width: 95%;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 20px auto;
+    padding: 20px Opx;
+}
+
+.logos ul{
+    padding: Opx;
+    margin: Opx;
+}
+
+
+.logos ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    height:350px;
+    background: #1D1D1D;
+    margin: 25px 40px 25px 25px;
+}
+
+.logos ul li img
+{
+    object-fit: contain;
+    width: 20vh;
+    height: 20vh;
+    padding: 68px;
+    
+}
+
+.logos li
+{
+    border:1px solid red;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px 0;
+}
