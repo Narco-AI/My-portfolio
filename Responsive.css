@@ -104,4 +104,98 @@
         position: absolute;
         left: 125vh;
     }
+
+    .container
+    {
+        position: absolute;
+        top: -1vh;
+        left: -12vh;
+    }
+
+    .cont h1
+    {
+        position: absolute;
+        bottom: -3.5vh;
+        left: 82vh;
+    }
+
+    .int
+    {
+        position: relative;
+        right: 10vh;
+        top: 5vh;
+    }
+
+    .int h1
+    {
+        position: relative;
+        right: 3vh;
+    }
+
+    .int a
+    {
+        position: relative;
+        left: -32vh;
+    }
+
+    .int video
+    {
+        position:relative;
+        bottom: 25vh;
+    }
+
+    .about-me h1
+    {
+        position: relative;
+        left: 84vh;
+    }
+
+    .dev
+    {
+        position: relative;
+        right: 52vh;
+
+    }
+
+    .ed
+    {
+        postion: relative;
+        left: 52vh;
+    }
+
+    .categories
+    {
+        position: relative;
+        right: 9vh;
+        bottom: 15vh;
+    }
+
+    .logo-design
+    {
+        position: relative;
+        top: 47.5vh;
+        left: 26vh;
+    }
+
+    .vid-edit
+    {
+        position: relative;
+        top: 44.5vh;
+        left: 91vh;
+    }
+
+    .web-design
+    {
+        position: relative;
+        top: 41vh;
+        left: 148vh;
+    }
+
+    .logos h1
+    {
+        position: absolute;
+        left: 76vh;
+        top: 46vh;
+    }
+
 }
